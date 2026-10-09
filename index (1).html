@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jicelma Silva | Terapeuta Emocional e TRG Online</title>
+<meta name="description" content="Jicelma Silva, terapeuta emocional com atendimento online em Terapia de Reprocessamento Generativo (TRG). Conheça seu trabalho e agende seu atendimento.">
+<meta name="keywords" content="terapeuta emocional online, terapeuta emocional, terapia emocional online, Terapia de Reprocessamento Generativo, TRG online, terapeuta TRG, terapia para traumas, terapia para fobias, terapia para medo, terapia para autoestima, Jicelma Silva terapeuta">
+<meta name="author" content="Jicelma Silva">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://trgterapeutajicelma.com.br/">
+<meta property="og:title" content="Jicelma Silva | Terapeuta Emocional e TRG Online">
+<meta property="og:description" content="Atendimento online em Terapia de Reprocessamento Generativo (TRG).">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://trgterapeutajicelma.com.br/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --sage:#A8BFA9;
+  --light:#EAF3ED;
+  --green:#527A5D;
+  --dark:#284B35;
+  --blue:#EAF2F4;
+  --ice:#F8FAF9;
+  --white:#fff;
+  --text:#33413A;
+  --muted:#66736C;
+  --border:#DCE7DF;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"DM Sans",sans-serif;background:var(--ice);color:var(--text);line-height:1.65}
+a{text-decoration:none;color:inherit}
+.container{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:100;background:rgba(248,250,249,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
+.nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:25px}
+.logo{font-family:"Playfair Display",serif;color:var(--dark);font-size:23px;font-weight:600}
+.logo span{display:block;font-family:"DM Sans";font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--green);font-weight:600}
+.menu{display:flex;align-items:center;gap:24px;font-size:14px;font-weight:600;color:#4F5F56}
+.menu a{transition:.2s}
+.menu a:hover{color:var(--dark)}
+.menu .cta{background:var(--dark);color:#fff;padding:10px 16px;border-radius:25px}
+.hero{padding:82px 0 70px;background:linear-gradient(135deg,var(--ice),var(--blue))}
+.hero-grid{display:grid;grid-template-columns:1fr;gap:24px;align-items:center;max-width:880px}
+.eyebrow{color:var(--green);font-weight:700;letter-spacing:1.5px;text-transform:uppercase;font-size:13px;margin-bottom:14px}
+h1,h2{font-family:"Playfair Display",serif;color:var(--dark);font-weight:600;line-height:1.15}
+h1{font-size:clamp(42px,6vw,66px);margin-bottom:22px}
+h2{font-size:clamp(32px,4vw,46px);margin-bottom:18px}
+.hero p{font-size:18px;color:var(--muted);max-width:650px}
+.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.btn{display:inline-block;padding:13px 21px;border-radius:28px;font-weight:700}
+.btn-primary{background:var(--dark);color:#fff}
+.btn-secondary{border:1px solid var(--green);color:var(--dark);background:#fff}
+.photo{min-height:430px;border-radius:32px;background:linear-gradient(145deg,#DCEBE0,#F5F8F6);display:flex;align-items:center;justify-content:center;text-align:center;padding:35px;color:var(--green);border:1px solid var(--border)}
+.photo img{width:100%;max-width:446px;height:auto;aspect-ratio:1/1;object-fit:cover;border-radius:50%;display:block;box-shadow:0 16px 35px rgba(40,75,53,.14)}
+section{padding:78px 0}
+.section-intro{max-width:720px;margin-bottom:35px}
+.section-intro p{color:var(--muted)}
+.about{display:grid;grid-template-columns:.9fr 1.1fr;gap:60px;align-items:center}
+.about-card{background:#fff;border:1px solid var(--border);padding:34px;border-radius:24px}
+.about-card strong{color:var(--dark)}
+.about-portrait{display:flex;flex-direction:column;align-items:center;gap:24px}
+.about-portrait img{display:block;width:min(100%,330px);height:auto;aspect-ratio:1/1;object-fit:cover;border-radius:28px;background:#F1F6F2;border:6px solid #DCEBE0;box-shadow:0 16px 35px rgba(40,75,53,.10)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:#fff;border:1px solid var(--border);border-radius:22px;padding:28px}
+.icon{font-size:28px;margin-bottom:14px}
+.card h3{color:var(--dark);margin-bottom:8px;font-size:20px}
+.card p{color:var(--muted);font-size:15px}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.step{background:var(--light);padding:25px;border-radius:20px}
+.number{font-weight:700;color:var(--green);font-size:14px;margin-bottom:8px}
+.audience{background:var(--blue)}
+.blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.post{background:#fff;border:1px solid var(--border);border-radius:22px;overflow:hidden;display:flex;flex-direction:column}
+.post-image{height:150px;background:linear-gradient(135deg,var(--light),var(--blue));display:flex;align-items:center;justify-content:center;font-size:36px}
+.post-body{padding:24px}
+.category{font-size:12px;text-transform:uppercase;letter-spacing:1px;color:var(--green);font-weight:700}
+.post h3{color:var(--dark);font-size:20px;line-height:1.3;margin:8px 0}
+.post p{font-size:14px;color:var(--muted)}
+.read{display:inline-block;margin-top:15px;color:var(--dark);font-weight:700;font-size:14px}
+.blog-note{margin-top:22px;color:var(--muted);font-size:14px}
+.cta-section{background:var(--dark);color:#fff;text-align:center}
+.cta-section h2{color:#fff}
+.cta-section p{max-width:650px;margin:0 auto;color:#DCE9DF}
+.faq{max-width:850px;margin:auto}
+details{background:#fff;border:1px solid var(--border);padding:20px 22px;border-radius:16px;margin-bottom:12px}
+summary{cursor:pointer;font-weight:700;color:var(--dark)}
+details p{margin-top:12px;color:var(--muted)}
+footer{background:#203A29;color:#DCE9DF;padding:38px 0}
+.footer{display:flex;justify-content:space-between;gap:20px;align-items:center;flex-wrap:wrap}
+footer a{color:#fff}
+.float{position:fixed;right:20px;bottom:20px;background:#2E7D4F;color:#fff;padding:13px 18px;border-radius:30px;font-weight:700;box-shadow:0 8px 25px #0002;z-index:90}
+@media(max-width:850px){
+  .menu{gap:12px;font-size:12px}
+  .menu .cta{padding:8px 11px}
+  .hero-grid,.about{grid-template-columns:1fr}
+  .cards,.blog-grid{grid-template-columns:1fr}
+  .steps{grid-template-columns:1fr 1fr}
+  .photo{min-height:300px}
+}
+@media(max-width:600px){
+  .nav{min-height:68px}
+  .logo{font-size:19px}
+  .menu a:not(.cta){display:none}
+  .hero{padding:58px 0}
+  section{padding:60px 0}
+  .steps{grid-template-columns:1fr}
+}
+</style>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Person",
+  "name":"Jicelma Silva",
+  "jobTitle":"Terapeuta emocional",
+  "url":"https://trgterapeutajicelma.com.br/",
+  "telephone":"+55 11 94067-9791",
+  "sameAs":["https://www.instagram.com/trg.terapeutajicelma/"]
+}
+</script>
+</head>
+
+<body>
+<header>
+  <div class="container nav">
+    <a class="logo" href="#inicio">Jicelma Silva<span>Terapeuta emocional • TRG</span></a>
+    <nav class="menu" aria-label="Menu principal">
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre mim</a>
+      <a href="#trg">TRG</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#blog">Blog</a>
+      <a href="#faq">FAQ</a>
+      <a class="cta" href="https://wa.me/5511940679791" target="_blank" rel="noopener">Agende seu atendimento</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="inicio">
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow">Terapia emocional • Atendimento online</div>
+      <h1>Seu trauma não define seu futuro.</h1>
+      <p>Um espaço online, seguro e acolhedor para olhar para experiências que ainda impactam suas emoções, seus relacionamentos e a forma como você se percebe.</p>
+      <div class="buttons">
+        <a class="btn btn-primary" href="https://wa.me/5511940679791" target="_blank" rel="noopener">Agendar pelo WhatsApp</a>
+        <a class="btn btn-secondary" href="#trg">Conhecer a TRG</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sobre">
+  <div class="container about">
+    <div class="about-card">
+      <div class="eyebrow">Sobre mim</div>
+      <h2>Olá, eu sou Jicelma.</h2>
+      <p>Sou terapeuta emocional e atuo com Terapia de Reprocessamento Generativo (TRG), oferecendo atendimento online com acolhimento, segurança e respeito ao tempo de cada pessoa.</p>
+      <br>
+      <p><strong>Meu propósito é oferecer um espaço de escuta e cuidado para quem deseja compreender e trabalhar experiências emocionalmente marcantes.</strong></p>
+    </div>
+    <div class="about-portrait">
+      <img src="foto-jicelma.webp" alt="Retrato de Jicelma Silva, terapeuta emocional e TRG" width="330" height="330" loading="lazy">
+      <div>
+      <h2>Um espaço para você</h2>
+      <p>O processo terapêutico pode ser um momento de pausa, compreensão e cuidado. Cada atendimento é conduzido de maneira individualizada, considerando a experiência e as necessidades de cada pessoa.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="trg" style="background:#F1F6F2">
+  <div class="container">
+    <div class="section-intro">
+      <div class="eyebrow">Terapia de Reprocessamento Generativo</div>
+      <h2>O que é a TRG?</h2>
+      <p>A TRG é uma abordagem de reprocessamento de experiências e memórias emocionalmente significativas. O trabalho busca favorecer uma nova relação com conteúdos que ainda provocam sofrimento ou reações intensas.</p>
+    </div>
+    <div class="cards">
+      <article class="card"><div class="icon">🌿</div><h3>Traumas</h3><p>Espaço para trabalhar experiências que continuam gerando impactos emocionais no presente.</p></article>
+      <article class="card"><div class="icon">🦋</div><h3>Medos e fobias</h3><p>Atendimento direcionado a experiências de medo, repulsa e situações que provocam reações intensas.</p></article>
+      <article class="card"><div class="icon">💚</div><h3>Autoestima</h3><p>Um espaço para compreender experiências que podem afetar a forma como você se percebe e se relaciona.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="como-funciona">
+  <div class="container">
+    <div class="section-intro">
+      <div class="eyebrow">O processo</div>
+      <h2>Como funciona o atendimento?</h2>
+      <p>O acompanhamento é realizado online, de forma individual e respeitando o ritmo de cada pessoa.</p>
+    </div>
+    <div class="steps">
+      <div class="step"><div class="number">01</div><h3>Acolhimento</h3><p>Conversamos sobre sua demanda e o que você deseja trabalhar.</p></div>
+      <div class="step"><div class="number">02</div><h3>Identificação</h3><p>Buscamos compreender as experiências relacionadas ao que está sendo vivido.</p></div>
+      <div class="step"><div class="number">03</div><h3>Reprocessamento</h3><p>O processo terapêutico é conduzido conforme a abordagem da TRG.</p></div>
+      <div class="step"><div class="number">04</div><h3>Acompanhamento</h3><p>Observamos as mudanças percebidas ao longo do processo.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="audience">
+  <div class="container">
+    <div class="section-intro">
+      <div class="eyebrow">Para quem é</div>
+      <h2>Você pode encontrar aqui um espaço de acolhimento.</h2>
+      <p>O atendimento pode ser buscado por adultos que desejam trabalhar questões emocionais relacionadas a traumas, medos, fobias, rejeição, abandono, insegurança, autoestima e outras experiências marcantes.</p>
+    </div>
+  </div>
+</section>
+
+<!-- BLOG -->
+<section id="blog">
+  <div class="container">
+    <div class="section-intro">
+      <div class="eyebrow">Conteúdos para você</div>
+      <h2>Blog</h2>
+      <p>Informações e reflexões sobre emoções, traumas, autoestima, medos, fobias e Terapia de Reprocessamento Generativo.</p>
+    </div>
+
+    <div class="blog-grid">
+      <article class="post">
+        <div class="post-image">🧠</div>
+        <div class="post-body">
+          <div class="category">Traumas e emoções</div>
+          <h3>Como experiências do passado podem continuar afetando o presente?</h3>
+          <p>Entenda de forma simples como experiências emocionalmente marcantes podem permanecer associadas a determinadas reações.</p>
+          <a class="read" href="#">Leia mais →</a>
+        </div>
+      </article>
+
+      <article class="post">
+        <div class="post-image">🌿</div>
+        <div class="post-body">
+          <div class="category">TRG</div>
+          <h3>O que é Terapia de Reprocessamento Generativo?</h3>
+          <p>Conheça a proposta da TRG e entenda como funciona o processo de atendimento dentro dessa abordagem.</p>
+          <a class="read" href="#">Leia mais →</a>
+        </div>
+      </article>
+
+      <article class="post">
+        <div class="post-image">💚</div>
+        <div class="post-body">
+          <div class="category">Autoestima</div>
+          <h3>Quando a insegurança começa a interferir na vida</h3>
+          <p>Algumas experiências podem influenciar a forma como nos percebemos. Veja algumas reflexões sobre autoestima.</p>
+          <a class="read" href="#">Leia mais →</a>
+        </div>
+      </article>
+    </div>
+
+    <p class="blog-note">Novos conteúdos poderão ser adicionados aqui posteriormente, com páginas individuais para cada artigo.</p>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <h2>Você não precisa enfrentar tudo sozinha.</h2>
+    <p>Se quiser conhecer melhor meu trabalho e entender como funciona o atendimento, entre em contato comigo.</p>
+    <div class="buttons" style="justify-content:center">
+      <a class="btn" style="background:#fff;color:#284B35" href="https://wa.me/5511940679791" target="_blank" rel="noopener">Falar comigo pelo WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="container faq">
+    <div class="section-intro">
+      <div class="eyebrow">Dúvidas frequentes</div>
+      <h2>FAQ</h2>
+    </div>
+    <details><summary>O atendimento é online?</summary><p>Sim. Atualmente os atendimentos são realizados online.</p></details>
+    <details><summary>Como funciona a primeira conversa?</summary><p>O primeiro contato é um momento para conhecer sua demanda, explicar o funcionamento do atendimento e tirar suas dúvidas.</p></details>
+    <details><summary>A TRG substitui acompanhamento médico ou psicológico?</summary><p>A terapia não deve ser apresentada como substituta de acompanhamento médico, psicológico ou psiquiátrico quando esse acompanhamento for necessário.</p></details>
+    <details><summary>Como agendar?</summary><p>Você pode entrar em contato pelo WhatsApp para verificar horários e informações sobre o atendimento.</p></details>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container footer">
+    <div><strong>Jicelma Silva • Terapeuta emocional | TRG</strong><br><small>Atendimento online</small></div>
+    <div>
+      <a href="https://www.instagram.com/trg.terapeutajicelma/" target="_blank" rel="noopener">Instagram</a>
+      &nbsp; • &nbsp;
+      <a href="https://wa.me/5511940679791" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </div>
+</footer>
+
+<a class="float" href="https://wa.me/5511940679791" target="_blank" rel="noopener" aria-label="Falar com Jicelma pelo WhatsApp">WhatsApp</a>
+</body>
+</html>
