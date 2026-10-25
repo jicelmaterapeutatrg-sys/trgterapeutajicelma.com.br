@@ -215,18 +215,25 @@
     }
   </style>
   <style>
-    /* Cores dos protocolos TRG: trocar aqui pelas cores oficiais */
+    /* Cores dos protocolos: as mesmas do logo da TRG */
     .protocolos {
-      --trg-1: #8FB3C9;
-      --trg-2: #9CC5A8;
-      --trg-3: #E2C48A;
-      --trg-4: #D9A3A0;
-      --trg-5: #A99BC9;
+      --trg-1: #9F134A;
+      --trg-2: #F94B54;
+      --trg-3: #4FC085;
+      --trg-4: #448BC8;
+      --trg-5: #F49521;
       background: #FBFCFA;
       border: 1px solid var(--border);
       border-radius: 18px;
       padding: 24px 26px;
       margin: 28px 0;
+      position: relative;
+      overflow: hidden;
+    }
+    .protocolos::before {
+      content: "";
+      position: absolute; top: 0; left: 0; right: 0; height: 4px;
+      background: linear-gradient(90deg, var(--trg-1) 0 20%, var(--trg-2) 20% 40%, var(--trg-3) 40% 60%, var(--trg-4) 60% 80%, var(--trg-5) 80%);
     }
     .protocolos h3 { color: var(--green); font-family: Georgia, serif; font-size: 22px; margin: 0; }
     .protocolos-intro { color: var(--muted); font-size: 15px; margin: 6px 0 16px; }
@@ -246,7 +253,7 @@
       position: absolute; left: 0; top: 11px;
       width: 30px; height: 30px; border-radius: 50%;
       display: flex; align-items: center; justify-content: center;
-      font: bold 14px Arial, sans-serif; color: #284B35;
+      font: bold 14px Arial, sans-serif; color: #fff;
       background: var(--c);
     }
     .protocolos li strong { display: block; color: var(--green); }
